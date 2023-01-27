@@ -1,0 +1,63 @@
+
+
+
+######################
+consuming the api
+
+import requests
+
+
+#response = requests.get("https://939e-197-210-76-183.ngrok.io/todo/")
+#print(response.json())
+
+
+#response = requests.post('https://f42b-197-210-77-96.ngrok.io/todo/', data = {
+#        "id": 4,
+#        "title": "no be juju be this updates",
+#        "description": "omo mehnnnnnnnnnn",
+#        "completed": False
+#    })
+
+#print(response.json())
+
+
+#response = requests.put('https://f42b-197-210-77-96.ngrok.io/todo/6', data ={
+#        "id": 4,
+#        "title": "goose",
+#        "description": "i yam a man",
+#        "completed": True
+#    })
+
+
+#print(response.json())
+
+
+
+
+
+
+
+
+/create-wallet/
+{
+	"username": "raymond"
+}
+
+
+
+/get-bnb-balance/<str:wallet_address>/
+/get-bep-balance/<str:wallet_address>/
+
+
+/send-bep/
+/send-bnb/
+{
+	"sender": "0x47b47bcC359c25addFd02157df066D09e7fee97c",
+	"receiver": "0x7d8b40BBB42D05cbFF4696AAe83AcEdb22467100",
+	"amount": "2",
+	"sender_key": "0x002d256ee85560152e19b16b6f21272d17612a8c5d577bf55676beba79366c15"
+}
+
+
+
+0x7d8b40BBB42D05cbFF4696AAe83AcEdb22467100
